@@ -58,7 +58,8 @@ Password: admin123
 
 ## 🔐 Live Demo
 
-https://student-manage-system-g4pyjzj3i.vercel.app/login
+https://student-man-git-125c93-shubhangi-vishwakarmas-projects-8f17d46e.vercel.app/login
+
 
 ---
 
