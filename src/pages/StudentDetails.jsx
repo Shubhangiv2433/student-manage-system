@@ -39,7 +39,7 @@ const InfoRow = ({ icon, label, value }) => (
       <p className="text-[11px] uppercase tracking-wide text-slate-500 dark:text-slate-400">
         {label}
       </p>
-      <p className="font-semibold text-slate-800 dark:text-slate-100 break-words">
+      <p className="font-semibold text-slate-800 dark:text-slate-100 wrap-break-words">
         {value || "—"}
       </p>
     </div>
@@ -92,12 +92,12 @@ const StudentDetails = () => {
 
       {/* Profile card */}
       <section className="relative overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-700 bg-white/80 dark:bg-slate-800/60 backdrop-blur shadow-sm animate-fade-in-up">
-        <div className={`h-28 bg-gradient-to-r ${gradient}`} />
+        <div className={`h-28 bg-linear-to-r ${gradient}`} />
         <div className="px-5 sm:px-8 pb-6 -mt-12">
           <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
             <div className="flex items-end gap-4">
               <div
-                className={`h-24 w-24 sm:h-28 sm:w-28 rounded-2xl bg-gradient-to-br ${gradient} flex items-center justify-center text-white text-3xl font-extrabold border-4 border-white dark:border-slate-900 shadow-lg`}
+                className={`h-24 w-24 sm:h-28 sm:w-28 rounded-2xl bg-linear-to-br ${gradient} flex items-center justify-center text-white text-3xl font-extrabold border-4 border-white dark:border-slate-900 shadow-lg`}
               >
                 {getInitials(student.name)}
               </div>

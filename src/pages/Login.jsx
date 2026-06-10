@@ -51,11 +51,6 @@ const Login = () => {
         Enter your credentials to access the admin dashboard.
       </p>
 
-      {/* Demo credentials hint */}
-      <div className="mt-5 rounded-xl border border-indigo-200 bg-indigo-50/70 dark:bg-indigo-900/20 dark:border-indigo-800 px-4 py-3 text-xs text-indigo-700 dark:text-indigo-300">
-        <strong>Demo:</strong> admin@svmanage.com / admin123
-      </div>
-
       <form onSubmit={onSubmit} className="mt-6 space-y-4">
         <FormInput
           label="Email"
