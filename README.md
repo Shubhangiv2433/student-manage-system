@@ -54,6 +54,11 @@ src/
 Email: admin@svmanage.com
 Password: admin123
 ```
+---
+
+## 🔐 Live Demo
+
+https://student-manage-system-navy.vercel.app/login
 
 ---
 
