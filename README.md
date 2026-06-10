@@ -58,7 +58,7 @@ Password: admin123
 
 ## 🔐 Live Demo
 
-https://student-manage-system-navy.vercel.app/login
+https://student-manage-system-7ym83xcyo.vercel.app/login
 
 ---
 
