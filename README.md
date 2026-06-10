@@ -57,17 +57,6 @@ Password: admin123
 
 ---
 
-## 🌟 Future Improvements
-
-* Backend Integration
-* Database Support
-* JWT Authentication
-* Dark Mode
-* Charts & Analytics
-* Export Student Data
-
----
-
 ## 👨‍💻 Author By
 
 Shubhangi Vishwakarma
