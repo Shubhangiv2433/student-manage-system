@@ -7,8 +7,8 @@ const AuthContext = createContext(null);
 // Seed a default admin so login works out of the box
 const DEFAULT_ADMIN = {
   name: "Admin User",
-  email: "admin@svmanage.com",
-  password: "admin123",
+  email: "",
+  password: "",
 };
 
 export const AuthProvider = ({ children }) => {
